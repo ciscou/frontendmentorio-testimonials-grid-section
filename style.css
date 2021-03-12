@@ -19,6 +19,11 @@ html {
 }
 
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: 'Barlow Semi Condensed', sans-serif;
   font-size: 13px;
 }
@@ -100,6 +105,8 @@ img {
 
 @media (min-width: 800px) {
   .testimonials {
+    max-width: 1150px;
+    margin: 0 auto;
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(4, 1fr);
