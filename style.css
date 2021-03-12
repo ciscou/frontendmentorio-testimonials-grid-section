@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.testimonials {
+  margin: 3em 1em;
+}
+
+.testimonial {
+  background: skyblue;
+  padding: 2em;
+  margin-top: 1em;
+  border-radius: .5em;
+}
+
+.testimonial h1 {
+  margin: 0;
+  font-size: 1.4em;
+}
+
+.testimonial__author {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__author div + div {
+  margin-left: 1em;
+}
